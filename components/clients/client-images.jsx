@@ -9,4 +9,15 @@ import Client08 from '@/public/client-08.svg'
 import Client09 from '@/public/client-09.svg'
 import Client10 from '@/public/client-10.svg'
 
-export default [Client01,Client02, Client03, Client04, Client05, Client06, Client07, Client08, Client09, Client10]
+export default [
+    {id: 1 , img:Client01},
+    {id: 2 , img:Client02}, 
+    {id: 3,  img:Client03}, 
+    {id: 4,  img:Client04}, 
+    {id: 5,  img:Client05}, 
+    {id: 6,  img:Client06}, 
+    {id: 7,  img:Client07}, 
+    {id: 8,  img:Client08}, 
+    {id: 9,  img:Client09}, 
+    {id: 10, img:Client10}
+]

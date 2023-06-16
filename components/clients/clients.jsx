@@ -26,9 +26,12 @@ export default function Clients() {
                  {
                   ClientImages.map(image=>{
                     return(
+                      <div key={image.id}>
                       <motion.div className={`${styles.item} !h-32 !w-32 bg-gray-800 rounded-2xl flex items-center justify-center group`}>
-                        <Image src={image} className={`${styles.image_item} opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out`}/>
+                        <Image src={image.img} className={`${styles.image_item} opacity-40 group-hover:opacity-100 transform duration-500 ease-in-out`}/>
                       </motion.div>
+                      </div>
+                      
                     )
                   })
                  }
